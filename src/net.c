@@ -707,5 +707,5 @@ int main_loop(void) {
 	sigprocmask(SIG_SETMASK, &omask, NULL);
 #endif
 
-	return 0;
+	return 1;
 }
